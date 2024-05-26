@@ -1,0 +1,35 @@
+.container {
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.userAvatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 8px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 1.4;
+
+    span {
+        margin-left: 8px;
+        font-weight: 400;
+        color: rgb(97, 96, 97);
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,67 @@
+.container {
+    background: #3f0e40;
+}
+
+.workspaceContainer {
+    color: white;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    justify-content: space-between;
+    border-bottom: 1px solid #532753;
+}
+
+.newMessage {
+    width: 36px;
+    height: 36px;
+    background: white;
+    color: #3f0e40;
+    fill: #3f0e40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.mainChannels {
+    padding-top: 20px;
+}
+.mainChannelItem {
+    color: rgb(188, 171, 188);
+    display: grid;
+    grid-template-columns: 15% auto;
+    height: 28px;
+    align-items: center;
+    padding-left: 19px;
+    cursor: pointer;
+    :hover {
+        background: #350d36;
+    }
+}
+
+.channelsContainer {
+    color: rgb(188, 171, 188);
+    margin-top: 18px;
+}
+
+.newChannelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    padding-left: 19px;
+    padding-right: 12px;
+}
+
+.channel {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    cursor: pointer;
+    :hover {
+        background: #350d36;
+    }
+}
